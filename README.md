@@ -33,12 +33,13 @@ Part V: Advanced Topics
  1. T-Test for Everything 
  1. Potential Outcomes Model
  1. Multi-armed Bandits
- 2. Variance Reduction
- 2. Heterogenous Treatment Effects
- 2. Delta Method
- 2. Switchback Experiments
- 2. Surrogate Indices
- 2. Adaptive Capping
+ 1. Variance Reduction
+ 1. Heterogenous Treatment Effects
+ 1. Delta Method
+ 1. Switchback Experiments
+ 1. Surrogate Indices
+ 1. Adaptive Capping
+ 1. Off Policy Learning
 
 
 Other Cool Topics
