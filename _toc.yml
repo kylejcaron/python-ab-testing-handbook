@@ -1,4 +1,5 @@
 format: jb-book
 root: intro
 chapters:
-- file: 01-Introduction-To-AB-Testing.ipynb
+- caption: Part I - Getting Started
+  - file: 01-Introduction-To-AB-Testing.ipynb
