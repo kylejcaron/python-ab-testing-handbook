@@ -1,7 +1,7 @@
 
 # AB Testing in Industry
 
-An introduction to A/B testing in industry using Python. 
+A lightweight introduction to A/B testing in industry using Python. View the in-progress handbook [here](https://kylejcaron.github.io/python-ab-testing-handbook/intro.html)
 
 ## [DRAFT] Table of Contents 
 
