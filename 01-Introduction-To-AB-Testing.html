@@ -92,6 +92,11 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
 </ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Part I - Getting Started
+ </span>
+</p>
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
@@ -208,11 +213,6 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#introduction">
-   Introduction
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id1">
    Introduction to A/B Testing
   </a>
@@ -220,6 +220,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#why-do-we-need-a-b-tests">
    Why do we need A/B Tests?
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#key-ideas">
+   Key Ideas
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
@@ -253,11 +258,6 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#introduction">
-   Introduction
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#id1">
    Introduction to A/B Testing
   </a>
@@ -265,6 +265,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#why-do-we-need-a-b-tests">
    Why do we need A/B Tests?
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#key-ideas">
+   Key Ideas
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
@@ -283,10 +288,7 @@ const thebe_selector_output = ".output, .cell_output"
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="introduction-to-a-b-testing">
 <h1>01 - Introduction To A/B Testing<a class="headerlink" href="#introduction-to-a-b-testing" title="Permalink to this headline">¶</a></h1>
-</div>
 <hr class="docutils" />
-<div class="tex2jax_ignore mathjax_ignore section" id="introduction">
-<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
 <p>A/B Testing is all the rage these days. With companies interested in optimizing their business, and employees interested in proving the value of their work, A/B testing has become a mainstream tool. But that doesnt mean everyone is using this tool properly.</p>
 <p>A/B tests can have alot of nuance, and decisions such as how long should an experiment run for, or how to make decisions with observed experiment data can be more complicated than many assume.</p>
 <p>This open-source resource is meant to help practitioners feel more confident working with stakeholders, designing experiments, and interpreting results</p>
@@ -295,6 +297,9 @@ const thebe_selector_output = ".output, .cell_output"
 <h1>Introduction to A/B Testing<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <p>For businesses, A/B testing is a system to figure out which version of an experience is best for customers. It’s used to answer questions such as “What will help to make people buy our product or subscribe to our service?”.</p>
 <p>One example might be an e-commerce company testing out a new checkout webpage with the hope that it improves conversion rate, and therefore revenue.</p>
+<br>
+<p><img alt="ab_test.png" src="_images/ab_test.png" /></p>
+<br>
 <p>Another example might be a subscription streaming service testing out whether they should release new episodes of a TV show all at once, or release 1 episode per week, to see which options keep customers subscribed for longer.</p>
 <p>An A/B test for the former example would be allocating a random 50% of your customer-base to see the current checkout page (group A), while the other 50% of customers are exposed to the proposed new checkout page (group B). The comparison between group A and group B is where the name A/B testing comes from - and we use statistical methods to identify if there’s truly a change from the <strong>control</strong> (group A), or if the difference between the 2 groups is just random noise.</p>
 </div>
@@ -308,6 +313,10 @@ const thebe_selector_output = ".output, .cell_output"
 <p>We simply don’t know what other external factors independent of the product change might have contributed to a change in the metric - maybe its seasonality, maybe its a recent change in marketing spend, maybe the company recently went viral, maybe spam bots finally found their way to the website and are clicking their way through it, who knows. The point is, this is common, and it can even hide negative effects of a product change and open the business up to unintended risks</p>
 <p>This get’s even harder with <strong>co-interventions</strong>. Modern businesses want to test many product changes all at once, but once they start launching many product changes, how would they know which ones contributed to positive changes and which ones contributed to negative changes? A/B testing provides a system where we can safely make product changes that have positive effects, and mitigate product changes that have negative effects.</p>
 <p>The last point I’ll make about A/B testing is an empirical one. <strong>Microsoft reported only about one-third of their A/B tests lead to successful positive outcomes<a class="reference external" href="#fn1"><sup>1</sup></a>.</strong> Imagine if they weren’t using A/B tests and just rolled out all of these ideas as product changes - only a third of those changes would have lead to noticeable positive improvements, and they’d have little idea of which ones improved the business and which ones hurt the business. Most likely, their business would be far worse off without these experiments.</p>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="key-ideas">
+<h1>Key Ideas<a class="headerlink" href="#key-ideas" title="Permalink to this headline">¶</a></h1>
+<p>Rolling out product changes comes with risk - how do you know if the change is actually better? A/B testing is a powerful tool to mitigate that risk while exploring better product experiences. Companies all over the world such as Microsoft, Netflix, and Google utilize A/B tests as an important tool for growing their business and optimizing their product experience.</p>
 <br>
 </div>
 <hr class="docutils" />
